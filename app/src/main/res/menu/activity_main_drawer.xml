@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cpu"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="CPU/Mem" />
+        <item
+            android:id="@+id/gpu"
+            android:icon="@drawable/ic_gamepad_black_24dp"
+            android:title="GPU" />
+        <item
+            android:id="@+id/battery"
+            android:icon="@drawable/ic_battery_50_black_24dp"
+            android:title="Battery" />
+        <item
+            android:id="@+id/sys"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="System" />
+    </group>
+
+    <item android:title="other imformations">
+        <menu>
+            <item
+                android:id="@+id/net"
+                android:title="internet" />
+        </menu>
+    </item>
+
+</menu>
